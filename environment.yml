@@ -3,36 +3,9 @@ channels:
 - conda-forge
 - defaults
 dependencies:
-- configurable-http-proxy=3.1.0=0
-- nodejs=6.11.0=0
-- expat=2.2.5=he0dffb1_0
-- fontconfig=2.12.4=h88586e7_1
-- freetype=2.8=hab7d2ae_1
-- glib=2.53.6=h5d9569c_2
-- gmp=6.1.2=h6c8ec71_1
-- gst-plugins-base=1.12.2=he3457e5_0
-- gstreamer=1.12.2=h4f93127_0
-- icu=58.2=h9c2bf20_1
-- intel-openmp=2018.0.0=h15fc484_7
-- jpeg=9b=h024ee3a_2
-- libedit=3.1=heed3624_0
-- libffi=3.2.1=hd88cf55_4
-- libgcc=7.2.0=h69d50b8_2
-- libgcc-ng=7.2.0=h7cc24e2_2
-- libgfortran-ng=7.2.0=h9f7466a_2
-- libpng=1.6.32=hda9c8bc_2
-- libsodium=1.0.15=hf101ebd_0
-- libstdcxx-ng=7.2.0=h7a57d05_2
-- libxcb=1.12=h84ff03f_3
-- libxml2=2.9.4=h6b072ca_5
-- mkl=2018.0.0=hb491cac_4
-- ncurses=6.0=h9df7e31_2
-- pandoc=1.19.2.1=hea2e7c5_1
-- pcre=8.41=hc27e229_1
-- readline=7.0=ha6073c6_4
-- sqlite=3.20.1=hb898158_2
-- tk=8.6.7=hc745277_3
-- xz=5.2.3=h55aa19d_2
-- zeromq=4.2.2=hbedb6e5_2
-- zlib=1.2.11=ha838bed_2
-
+  - python=3.6
+  - numpy
+  - matplotlib
+  - pandas
+  - seaborn
+  - jieba
